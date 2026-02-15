@@ -11,9 +11,28 @@ Tous les détails se trouvent dans le fichier <a href="rapport.pdf">rapport.pdf<
 ## Quelques exemples de PPO 
 Voici les performances de nos agents sur la variante **Windy Continuous**.
 
-| PPO (Stable - $10^{-4}$) | A2C (Instable - $10^{-2}$) |
-| :---: | :---: |
-| <video src="videos/ppo_success.mp4" width="350" autoplay loop muted></video> | <video src="videos/a2c_crash.mp4" width="350" autoplay loop muted></video> |
+### `PPO` / actions discrètes (`VANILLA`) 
+
+version `CLASSIC`
+<img src="gifs/classic/vanilla/lunar_lander_PPO_0.0005623_200K_classic-vanilla/run_0_reward_244.585.gif" width="200" /><img src="gifs/classic/vanilla/lunar_lander_PPO_0.0005623_200K_classic-vanilla/run_1_reward_276.513.gif" width="200" /><img src="gifs/classic/vanilla/lunar_lander_PPO_0.0005623_200K_classic-vanilla/run_2_reward_251.156.gif" width="200" />
+
+version `WINDY`
+<img src="gifs/windy/vanilla/lunar_lander_PPO_0.0005623_200K_windy-vanilla/run_1_reward_-149.501.gif" width="200" /><img src="gifs/windy/vanilla/lunar_lander_PPO_0.0005623_200K_windy-vanilla/run_3_reward_273.010.gif" width="200" /><img src="gifs/windy/vanilla/lunar_lander_PPO_0.0005623_200K_windy-vanilla/run_4_reward_257.840.gif" width="200" />
+
+`ZERO-GRAVITY-WINDY`
+<img src="gifs/zero-gravity-windy/vanilla/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-vanilla/run_2_reward_-284.396.gif" width="200" /><img src="gifs/zero-gravity-windy/vanilla/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-vanilla/run_3_reward_-77.860.gif" width="200" /><img src="gifs/zero-gravity-windy/vanilla/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-vanilla/run_4_reward_39.936.gif" width="200" />
+
+### `PPO` / actions continues (`CONTINUOUS`) 
+
+version `CLASSIC`
+<img src="gifs/classic/continuous/lunar_lander_PPO_0.0005623_200K_classic-continuous/run_0_reward_-36.958.gif" width="200" /><img src="gifs/classic/continuous/lunar_lander_PPO_0.0005623_200K_classic-continuous/run_1_reward_8.375.gif" width="200" /><img src="gifs/classic/continuous/lunar_lander_PPO_0.0005623_200K_classic-continuous/run_4_reward_185.516.gif" width="200" />
+
+version `WINDY`
+<img src="gifs/windy/continuous/lunar_lander_PPO_0.0005623_200K_windy-continuous/run_2_reward_-8.394.gif" width="200" /><img src="gifs/windy/continuous/lunar_lander_PPO_0.0005623_200K_windy-continuous/run_3_reward_102.594.gif" width="200" /><img src="gifs/windy/continuous/lunar_lander_PPO_0.0005623_200K_windy-continuous/run_1_reward_233.715.gif" width="200" />
+
+`ZERO-GRAVITY-WINDY`
+<img src="gifs/zero-gravity-windy/continuous/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-continuous/run_3_reward_-658.006.gif" width="200" /><img src="gifs/zero-gravity-windy/continuous/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-continuous/run_2_reward_-109.591.gif" width="200" /><img src="gifs/zero-gravity-windy/continuous/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-continuous/run_4_reward_-83.965.gif" width="200" />
+
 
 ## 2. Protocole Expérimental
 Nous avons testé 5 Learning Rates sur une échelle logarithmique : 
