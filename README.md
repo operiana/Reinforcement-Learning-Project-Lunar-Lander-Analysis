@@ -8,36 +8,36 @@ Ce projet étudie l'impact des **Learning Rates** sur la convergence des algorit
 
 Tous les détails se trouvent dans le fichier <a href="rapport.pdf">rapport.pdf</a>.
 
-## Quelques exemples de PPO 
-Voici les performances de nos agents sur la variante **Windy Continuous**.
+## Quelques exemples des meilleurs modèles PPO entrainés
+Voici les performances de nos agents sur les différentes variantes étudiées.
 
 ### `PPO` / actions discrètes (`VANILLA`) 
 
 version `CLASSIC`
 
-<img src="gifs/classic/vanilla/lunar_lander_PPO_0.0005623_200K_classic-vanilla/run_0_reward_244.585.gif" width="200" /><img src="gifs/classic/vanilla/lunar_lander_PPO_0.0005623_200K_classic-vanilla/run_1_reward_276.513.gif" width="200" /><img src="gifs/classic/vanilla/lunar_lander_PPO_0.0005623_200K_classic-vanilla/run_2_reward_251.156.gif" width="200" />
+<img src="gifs/classic/vanilla/lunar_lander_PPO_0.0005623_200K_classic-vanilla/run_0_reward_209.gif" width="200" /><img src="gifs/classic/vanilla/lunar_lander_PPO_0.0005623_200K_classic-vanilla/run_0_reward_247.gif" width="200" /><img src="gifs/classic/vanilla/lunar_lander_PPO_0.0005623_200K_classic-vanilla/run_0_reward_238.gif" width="200" /><img src="gifs/classic/vanilla/lunar_lander_PPO_0.0005623_200K_classic-vanilla/run_0_reward_248.gif" width="200" /><img src="gifs/classic/vanilla/lunar_lander_PPO_0.0005623_200K_classic-vanilla/run_0_reward_245.gif" width="200" />
 
 version `WINDY`
 
-<img src="gifs/windy/vanilla/lunar_lander_PPO_0.0005623_200K_windy-vanilla/run_1_reward_-149.501.gif" width="200" /><img src="gifs/windy/vanilla/lunar_lander_PPO_0.0005623_200K_windy-vanilla/run_3_reward_273.010.gif" width="200" /><img src="gifs/windy/vanilla/lunar_lander_PPO_0.0005623_200K_windy-vanilla/run_4_reward_257.840.gif" width="200" />
+<img src="gifs/windy/vanilla/lunar_lander_PPO_0.0005623_200K_windy-vanilla/run_1_reward_245.gif" width="200" /><img src="gifs/windy/vanilla/lunar_lander_PPO_0.0005623_200K_windy-vanilla/run_1_reward_240.gif" width="200" /><img src="gifs/windy/vanilla/lunar_lander_PPO_0.0005623_200K_windy-vanilla/run_1_reward_241.gif" width="200" /><img src="gifs/windy/vanilla/lunar_lander_PPO_0.0005623_200K_windy-vanilla/run_1_reward_212.gif" width="200" /><img src="gifs/windy/vanilla/lunar_lander_PPO_0.0005623_200K_windy-vanilla/run_1_reward_133.gif" width="200" />
 
 version `ZERO-GRAVITY-WINDY`
 
-<img src="gifs/zero-gravity-windy/vanilla/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-vanilla/run_2_reward_-284.396.gif" width="200" /><img src="gifs/zero-gravity-windy/vanilla/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-vanilla/run_3_reward_-77.860.gif" width="200" /><img src="gifs/zero-gravity-windy/vanilla/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-vanilla/run_4_reward_39.936.gif" width="200" />
+<img src="gifs/zero-gravity-windy/vanilla/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-vanilla/run_2_reward_-166.gif" width="200" /><img src="gifs/zero-gravity-windy/vanilla/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-vanilla/run_2_reward_-346.gif" width="200" /><img src="gifs/zero-gravity-windy/vanilla/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-vanilla/run_2_reward_-25.gif" width="200" /><img src="gifs/zero-gravity-windy/vanilla/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-vanilla/run_2_reward_-131.gif" width="200" /><img src="gifs/zero-gravity-windy/vanilla/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-vanilla/run_2_reward_-74.gif" width="200" />
 
 ### `PPO` / actions continues (`CONTINUOUS`) 
 
 version `CLASSIC`
 
-<img src="gifs/classic/continuous/lunar_lander_PPO_0.0005623_200K_classic-continuous/run_0_reward_-36.958.gif" width="200" /><img src="gifs/classic/continuous/lunar_lander_PPO_0.0005623_200K_classic-continuous/run_1_reward_8.375.gif" width="200" /><img src="gifs/classic/continuous/lunar_lander_PPO_0.0005623_200K_classic-continuous/run_4_reward_185.516.gif" width="200" />
+<img src="gifs/classic/continuous/lunar_lander_PPO_0.0005623_200K_classic-continuous/run_0_reward_-8.gif" width="200" /><img src="gifs/classic/continuous/lunar_lander_PPO_0.0005623_200K_classic-continuous/run_0_reward_138.gif" width="200" /><img src="gifs/classic/continuous/lunar_lander_PPO_0.0005623_200K_classic-continuous/run_0_reward_-40.gif" width="200" /><img src="gifs/classic/continuous/lunar_lander_PPO_0.0005623_200K_classic-continuous/run_0_reward_114.958.gif" width="200" /><img src="gifs/classic/continuous/lunar_lander_PPO_0.0005623_200K_classic-continuous/run_0_reward_122.958.gif" width="200" />
 
 version `WINDY`
 
-<img src="gifs/windy/continuous/lunar_lander_PPO_0.0005623_200K_windy-continuous/run_2_reward_-8.394.gif" width="200" /><img src="gifs/windy/continuous/lunar_lander_PPO_0.0005623_200K_windy-continuous/run_3_reward_102.594.gif" width="200" /><img src="gifs/windy/continuous/lunar_lander_PPO_0.0005623_200K_windy-continuous/run_1_reward_233.715.gif" width="200" />
+<img src="gifs/windy/continuous/lunar_lander_PPO_0.0005623_200K_windy-continuous/run_2_reward_34.gif" width="200" /><img src="gifs/windy/continuous/lunar_lander_PPO_0.0005623_200K_windy-continuous/run_2_reward_247.gif" width="200" /><img src="gifs/windy/continuous/lunar_lander_PPO_0.0005623_200K_windy-continuous/run_2_reward_-12.gif" width="200" /><img src="gifs/windy/continuous/lunar_lander_PPO_0.0005623_200K_windy-continuous/run_2_reward_41.gif" width="200" /><img src="gifs/windy/continuous/lunar_lander_PPO_0.0005623_200K_windy-continuous/run_2_reward_-3.gif" width="200" />
 
 version `ZERO-GRAVITY-WINDY`
 
-<img src="gifs/zero-gravity-windy/continuous/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-continuous/run_3_reward_-658.006.gif" width="200" /><img src="gifs/zero-gravity-windy/continuous/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-continuous/run_2_reward_-109.591.gif" width="200" /><img src="gifs/zero-gravity-windy/continuous/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-continuous/run_4_reward_-83.965.gif" width="200" />
+<img src="gifs/zero-gravity-windy/continuous/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-continuous/run_3_reward_-120.gif" width="200" /><img src="gifs/zero-gravity-windy/continuous/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-continuous/run_3_reward_-124.gif" width="200" /><img src="gifs/zero-gravity-windy/continuous/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-continuous/run_3_reward_-230.gif" width="200" /><img src="gifs/zero-gravity-windy/continuous/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-continuous/run_3_reward_-194.gif" width="200" /><img src="gifs/zero-gravity-windy/continuous/lunar_lander_PPO_0.0005623_200K_zero-gravity-windy-continuous/run_3_reward_-364.gif" width="200" />
 
 
 ## 2. Protocole Expérimental
